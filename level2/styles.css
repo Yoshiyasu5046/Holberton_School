@@ -20,7 +20,7 @@ header {
 	margin-left: 10px;
 }
 
-.linkBox {
+.links li{
 	display: flex;
 	/*background-color: blue;*/
 	justify-content: flex-end;
