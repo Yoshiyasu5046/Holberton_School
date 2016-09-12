@@ -40,6 +40,22 @@ article {
 	overflow-y: auto;
 }
 
+.red-highlight {
+	/*色とかフォントサイズとかお願いします！*/
+}
+
+.black-highlight {
+	/*色とかフォントサイズとかお願いします！*/	
+}
+
+.term {
+	/*色とかフォントサイズとかお願いします！*/
+}
+
+.article-top-left {
+	float: left;
+}
+
 aside {
 	flex: 1;
 	overflow-y: auto;
@@ -48,4 +64,6 @@ aside {
 footer {
 	padding-top: 10px;
 }
+
+
 

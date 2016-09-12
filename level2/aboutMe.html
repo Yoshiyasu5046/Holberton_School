@@ -4,11 +4,11 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
   		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
-		<link href="styles.css" rel="stylesheet">
+		<link href="aboutMe_style.css" rel="stylesheet">
 		<script src="behavior.js"></script>
   		<title>aboutMe.html</title>
  	</head>
-	<body>
+	<body class="works_on_smartphone">
 		<!-- FB button -->
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -20,51 +20,153 @@
 			}(document, 'script', 'facebook-jssdk'));
 		</script>
 		<header>
-			<h1>About Me!!!</h1>
-			<!-- SNSリンクを入れる -->
-			<!-- FB -->
+			<!-- insert sns links -->
 			<div class="right">
-  				<ur>
-  					<div class="fb-share-button" data-href="http://173.246.107.12/kyoto.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F173.246.107.12%2Fkyoto.html&amp;src=sdkpreparse">Share</a></div>
-  				</ur>
-  			</div>
-  			<!-- twitter -->
-			<div class="right">
-  				<ur>
+  				<ul>
+					<!-- facebook -->
+					<div class="fb-share-button" data-href="http://173.246.107.12/kyoto.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F173.246.107.12%2Fkyoto.html&amp;src=sdkpreparse">Share</a></div>	
+  				</ul>
+  				<ul>
+  					<!-- twitter -->
   					<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  				</ur>
-  			</div>
-			<ul>
-				<li>
-					<a href="http://173.246.107.12">Home</a>
-				</li>
-				<li>
-					<a href="http://173.246.107.12/tweets.html">Tweets</a>
-				</li>
-				<li>
-					<a href="http://173.246.107.12/kyoto.html">Hack Kyoto!!!</a>
-				</li>
-			</ul>
-
-
+  				</ul>
+	  		</div>
+			
+			<div class="title">
+				<h1>About Me!</h1>				
+				<!-- link to other pages -->
+				<div class="linkBox">
+					<ul class="links">
+						<li>
+							<a href="http://173.246.107.12">Home</a>
+						</li>
+						<li>
+							<a href="http://173.246.107.12/tweets.html">Tweets</a>
+						</li>
+						<li>
+							<a href="http://173.246.107.12/kyoto.html">Hack Kyoto!!!</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
 		</header>
+
 		<main>
 			<article>
+				<div class="article-top">
+					<div class="article-top-left">
+						<h2>Yoshiyasu Kitahara</h2>
+						<ul>
+							<li>
+								<span class="black-highlight"> Address:</span> 94112  225 Lee Ave, San Francisco, CA
+							</li>
+							<li>
+								<span class="black-highlight"> Phone:</span> 904-770-9521
+							</li>
+							<li>
+								<span class="black-highlight"> Email: </span> <a href="yoshi.kitahara.niapat@gmail.com">yoshi.kitahara.niapat@gmail.com</a>
+							</li>
+							<li>
+								<span class="black-highlight"> LinkedIn: </span> <a href="https://www.linkedin.com/in/yoshiyasukitahara">https://www.linkedin.com/in/yoshiyasukitahara </a>
+							</li>
+							<li>
+								<span class="black-highlight"> Github: </span> <a href=" https://github.com/Yoshiyasu5046/ ">https://www.linkedin.com/in/yoshiyasukitahara </a>
+							</li>
+						</ul>			
+					</div>
+					<div class="article-top-right">
+						<img class=profile-pic id="smart_thumbnail" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0b3/090/17f7705.jpg">
+					</div>
+					
+				</div>
+				
+
 				<p>
-					<h2></h2>
-					<h3></h3>
+					<h4 class="red-highlight">Skills</h4>
+						<ul>
+							<li>
+								<span class="black-highlight"> English Proficiency: </span> TOEFL Ibt 84(December 2014)			
+							</li>
+							<li>
+								<span class="black-highlight"> Programming Skill: </span> Upper beginner(Languages: Java, Python, HTML, CSS, SQL, Javascript)
+							</li>
+						</ul>
 				</p>
 
 				<p>
-					<h2></h2>
-					<h3></h3>
+					<h4 class="red-highlight">Work Experience</h4>
+						<ul>
+							<li class="term">May 2012 - June 2014</li>
+							<li>
+								<span class="black-highlight"> Part-time Sales at NTT West: </span> Sales position for NTT West broadband Internet service	
+							</li>
+						</ul>
 				</p>
+
+				<p>
+					<h4 class="red-highlight">Education</h4>
+						<ul>
+							<li class="term">April 2011 - Present</li>
+							<li>
+								<span class="black-highlight"> Kansai University: </span> B.A. in Commerce
+							</li><br>
+							<li class="term"> January 2015 - December 2015</li>
+							<li>
+								<span class="black-highlight"> UC Berkeley Extension: </span> certificate in Marketing
+							</li>
+						</ul>
+				</p>
+
+				<p>
+					<h4 class="red-highlight">Other Activity</h4>
+						<ul>
+							<li class="term">February 2016</li>
+							<li>
+								<span class="black-highlight"> HPAIR (Harvard Project for Asian and International Relations) as a delegate in Entrepreneur panel</span> <br>
+								<a href="http://www.hpair.org/"> More about HPAIR </a>
+							</li><br>
+							<li class="term">July 2014 - December 2015</li>
+							<li>
+								<span class="black-highlight"> TOBITATE! Young Ambassador Program (Japan Public-Private Partnership Student Study Abroad Program)</span> <br>
+								<a href="http://www.tobitate.mext.go.jp/about/english.html"> More about TOBITATE </a>
+							</li><br>
+							<li class="term">May 2015</li>
+							<li>
+								<span class="black-highlight">Volunteer in COLLISION</span> <br>
+								<a href="http://www.tobitate.mext.go.jp/about/english.html"> More about TOBITATE </a>
+							</li><br>
+							<li class="term">November 2014</li>
+							<li>
+								<span class="black-highlight"> G1 College as a delegate</span> <br>
+								<a href="https://g1summit.com/g1college/"> More about G1 College </a>
+							</li><br>
+							<li class="term">August 2014</li>
+							<li>
+								<span class="black-highlight"> 66th Japan-America Student Conference(JASC) Japanese Delegate</span> <br>
+								<a href="http://iscdc.org/jasc/"> More about JASC </a>
+							</li>
+						</ul>
+				</p>
+
+				<p>
+					<h4 class="red-highlight">More About Me!</h4>
+						<ul>Here are some of my Medium posts about me.<br><br>
+							<li>
+								<a href="https://medium.com/@yoshiyasukitahara/holberton-school-essay-156947bf05dd#.2byfxs1cu"> Why do I want to become a software engineer? </a>
+							</li><br>
+							<li>
+								<a href="https://medium.com/@yoshiyasukitahara/holberton-school-essay-156947bf05dd#.2byfxs1cu"> Why do I want to attend Holberton School? </a>
+							</li><br>
+							<li><a href="https://medium.com/@yoshiyasukitahara/greatest-challenge-become-a-homeless-in-sf-a938533788e#.a3o7rwf7v"> Greatest Challenge ~ Became a homeless in SF ~ </a></li>
+						</ul>
+				</p>
+
+
 				
 			</article>
 			<aside>
 				<div id="disqus_thread"></div>
 				<script>
-
 				/**
 				 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 				 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
@@ -74,18 +176,15 @@
 				    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 				};
 				*/
-				
 				(function() { // DON'T EDIT BELOW THIS LINE
 				    var d = document, s = d.createElement('script');
-				    s.src = '//http-173-246-107-12-kyoto-html.disqus.com/embed.js';
+				    s.src = '//http-173-246-107-12-aboutme-html-1.disqus.com/embed.js';
 				    s.setAttribute('data-timestamp', +new Date());
 				    (d.head || d.body).appendChild(s);
 				})();
 				</script>
-				
 				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-				
-				<script id="dsq-count-scr" src="//http-173-246-107-12-kyoto-html.disqus.com/count.js" async></script>                                    	
+				                                                                        	
 			</aside>
 		</main>
 		<footer>

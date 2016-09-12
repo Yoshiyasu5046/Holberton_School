@@ -22,45 +22,92 @@
 			}(document, 'script', 'facebook-jssdk'));
 		</script>
 		<header>
-			<h1>Welcome to Yoshi's pages!!</h1>
-			<!-- SNSリンクを入れる -->
-			<!-- FB -->
+			<!-- insert sns links -->
 			<div class="right">
-  				<ur>
-  					<div class="fb-share-button" data-href="http://173.246.107.12/kyoto.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F173.246.107.12%2Fkyoto.html&amp;src=sdkpreparse">Share</a></div>
-  				</ur>
-  			</div>
-  			<!-- twitter -->
-			<div class="right">
-  				<ur>
+  				<ul>
+					<!-- facebook -->
+					<div class="fb-share-button" data-href="http://173.246.107.12/kyoto.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F173.246.107.12%2Fkyoto.html&amp;src=sdkpreparse">Share</a></div>	
+  				</ul>
+  				<ul>
+  					<!-- twitter -->
   					<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  				</ur>
-  			</div>
+  				</ul>
+	  		</div>
+			
+			<div class="title">
+				<h1>Yoshi's Webpage!</h1>				
+				<!-- link to other pages -->
+				<div class="linkBox">
+					<ul class="links">
+						<li>
+							<a href="http://173.246.107.12/aboutMe.html">About Me!</a>
+						</li>
+						<li>
+							<a href="http://173.246.107.12/tweets.html">Tweets</a>
+						</li>
+						<li>
+							<a href="http://173.246.107.12/kyoto.html">Hack Kyoto!!!</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
 		</header>
-		<article>
-			<p>
-				<h3>Hi, there. Welcome to Yoshi's web pages!! There are 3 contents below. Please check them up^^</h3>
-			</p>
-			<p>
-				<a href="http://173.246.107.12/kyoto.html"><h2>Hack Kyoto!!!</h2></a>
-				<h3>This is my Hometown, Kyoto Japan. When you come to Japan, you should definetely go there refering to this page!!</h3>
-			</p>
+		
+		<main>
+			<article>
+				<p>
+					<h3>
+						Hi, there. Welcome to Yoshi's web pages!! There are 3 contents below. Please check them up^^
+					</h3>
+				</p>
+				<p>
+					<a href="http://173.246.107.12/kyoto.html"> <h2>Hack Kyoto!!!</h2> </a>
+					<h3>This is my Hometown, Kyoto Japan. When you come to Japan, you should definetely go there refering to this page!!</h3>
+				</p>
 
-			<p>
-				<a href="http://173.246.107.12/kyoto.html"><h2>About Me!</h2></a>
-				<h3>This page is sort of my bio!! It is pleased to introduce myself.</h3>
-			</p>
+				<p>
+					<a href="http://173.246.107.12/kyoto.html"><h2>About Me!</h2></a>
+					<h3>This page is sort of my bio!! It is pleased to introduce myself.</h3>
+				</p>
 
-			<p>
-				<a href="http://173.246.107.12/tweets.html"><h2>Tweets</h2></a>
-				<h3>There are some embeded tweets!</h3>
-			</p>
+				<p>
+					<a href="http://173.246.107.12/tweets.html"><h2>Tweets</h2></a>
+					<h3>There are some embeded tweets!</h3>
+				</p>
 
+				<p>
+					<img class="small" id="smart_thumbnail" src="https://www.colourbox.com/preview/4598983-big-kyoto-temple-entrance.jpg">
+				</p>
+			</article>
+		
+			<aside>
+				<div id="disqus_thread"></div>
+				<script>
+
+				/**
+				 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+				/*
+				var disqus_config = function () {
+				    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+				    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				*/
+				(function() { // DON'T EDIT BELOW THIS LINE
+				    var d = document, s = d.createElement('script');
+				    s.src = '//http-173-246-107-12.disqus.com/embed.js';
+				    s.setAttribute('data-timestamp', +new Date());
+				    (d.head || d.body).appendChild(s);
+				})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                           
+			</aside>	
+		</main>
+		<footer>
 			<p>
-				<img class="small" id="smart_thumbnail" src="https://pbs.twimg.com/profile_images/644908719050850305/LbLzZ2vf.jpg">
+				Made by <a href="https://twitter.com/@yoshi5046" target="_blank">Yoshiyasu Kitahara</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
 			</p>
-		</article>
-				
+		</footer>
 	</body>
 
 </html>

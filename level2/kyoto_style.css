@@ -5,27 +5,29 @@ body {
 }
 
 header {
-	display: flex;
 	background-color: #000000;
-	flex: auto;
 }
 
+/*このレイアウトはmust*/
 main {
 	display: flex;
 	flex-direction: row;
 	flex: auto;
 }
 
+/*このレイアウトはmust*/
 article {
 	flex: 2;
 	overflow-y: auto;
 }
 
+/*このレイアウトはmust*/
 aside {
 	flex: 1;
 	overflow-y: auto;
 }
-/*ここまで*/
+
+/*約束事が多くてごめん…*/
 
 /*中央揃え*/
 .centering{
@@ -41,6 +43,8 @@ body{
 .mainview{
   display: flex;
 
+  overflow-y: auto;
+  
   background-image: url("http://farm7.staticflickr.com/6217/6383167507_62c5e3e1c2.jpg");
 	  /* 画像を常に天地左右の中央に配置 */
   background-position: center center;
