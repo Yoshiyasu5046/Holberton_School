@@ -3,12 +3,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #F5F4F2;
+	width: 100%;
 }
 
 header {
 	background-color: #000000;
-  	height: 440px;
-   	position : relative ;
+  	height: auto;
+  	padding-bottom: 100px;
+   	position: relative ;
 	background-image: url("http://farm7.staticflickr.com/6217/6383167507_62c5e3e1c2.jpg");
 	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
 	background-size: cover;
@@ -27,9 +29,6 @@ header h1 {
 	text-shadow: 1px 1px 3px #000000;
 }
 
-.title {
-	/*background-color: yellow;*/	
-}
 
 /*このレイアウトはmust*/
 .right ul{
@@ -40,10 +39,11 @@ header h1 {
 	color: #ffffff;
 	text-shadow: 1px 1px 3px #000000;
 }
+
 .links li{
 	display: flex;
 	/*background-color: blue;*/
-	justify-content: flex-end;
+	/*justify-content: flex-end;*/
 }
 
 .linkBox{
@@ -58,6 +58,7 @@ header h1 {
 .linkBox ul{
 	width:60%;
 	margin: 0 auto;
+	justify-content: center;
 }
 .linkBox-item a{
 	width: 27%;
@@ -71,12 +72,13 @@ header h1 {
 	transition: 0.3s;
 }
 
+
 /*このレイアウトはmust*/
 main {
 	display: flex;
 	flex: auto;
-	padding-top: 10px;
 	flex-direction: row;
+	background-color: #F5F4F2;
 	/*justify-content: center;*/
 	overflow-y: auto;
 	/*background-color: red;*/
@@ -87,21 +89,21 @@ article {
 	flex: 2;
 	flex-direction: column;
 	overflow-y: auto;
+	margin: 0%;
 }
 
 .article-content {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	background-color: #ffffff;
-
-	padding: 0 16px;
+	
+	
 }
 
 .article-item-box {
 	display: flex;
 	flex-direction: row;
-	
+	justify-content: space-between;
 }
 
 .article-item {
@@ -137,6 +139,7 @@ background: url(thumb.png) center center;
 	background:#A33B3A;
 	transition: 0.3s;
 }
+
 
 /*このレイアウトはmust*/
 aside {
